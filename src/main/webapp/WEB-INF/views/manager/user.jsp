@@ -154,8 +154,29 @@
 	});
 	
 	function addUser(){
+		var username = $('#username').val();
+		var nickname = $('#nickname').val();
+		var password = $('#password').val();
+		var password2 = $('#password2').val();
+		if(username == ''){
+			alert("请输入用户名！");
+			return;
+		}
+		if(nickname == ''){
+			alert("请输入昵称！");
+			return;
+		}
+		if(password == ''){
+			alert("请输入密码！");
+			return;
+		}
+		if(password != password2){
+			alert("两次输入的密码必须相同！");
+			return;
+		}
 		$("#form1").submit();
 	}
+	
 	
 	  /*  $(function () {
 		    $('#example2').dataTable({
