@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "name": "Tiger Nixon",
+            "position": "System Architect",
+        },
+        {
+            "name": "Garrett Winters",
+            "position": "Accountant",
+        }
+     ]
+}
