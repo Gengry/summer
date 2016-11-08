@@ -47,19 +47,6 @@
 				<!-- /.box-body -->
 			</div>
 			
-			<!-- <div class="table-responsive">
-	              <table id="example" class="table table-bordered table-hover table-condensed table-striped display">
-	                <thead>
-	                <tr>
-	                  <th>用户名</th>
-	                  <th>昵称</th>
-	                </tr>
-	                </thead>
-	                <tbody>
-	                </tbody>
-	              </table>
-	             </div> -->
-			
 		 <div class="box">
             <div class="box-body ">
             <div class="table-responsive">
@@ -78,10 +65,6 @@
             </div>
           </div> 
 			
-			
-
-			<!-- <a href="#myModal" role="button" class="btn btn-success btn-xs"
-				data-toggle="modal" data-backdrop="static" onclick="test()">查看演示案例</a> -->
 			<div class="modal fade" id="myModal">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -198,7 +181,8 @@
 			    	"ajax": "${pageContext.request.contextPath}/data.txt",
 			        "columns": [
 			                    { "data": "name" },
-			                    { "data": "position"}
+			                    { "data": "position"},
+			                    { "data": "extn"}
 			                   ],
 			        "searching": false
 			    } );
